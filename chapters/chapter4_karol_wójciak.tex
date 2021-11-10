@@ -1,0 +1,67 @@
+\newpage
+\section{This is a section name}
+\label{sec:Karol Wójciak}
+
+\subsection{Some paragraphs}
+
+"\textbf{Lorem ipsum dolor sit amet}, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \underline{Ut enim ad minim veniam}, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." \par "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \textbf{\textit{Excepteur}} sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+\subsection{A picture example}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=1.2]{pictures/dog.jpg}
+    \caption{A dog from Google.}
+    \label{fig:dog}
+\end{figure}
+
+\subsection{Some maths}
+
+\subsubsection{Limits}
+\[ \lim_{n\to\infty} \frac{5n^2 + 3n - 5}{2n^2 + 4} = \frac{5}{2}\]
+\subsubsection{Sums}
+\[ \sum_{n=1}^{\infty} 2^{-n}\]
+\newpage
+
+\subsection{A table example}
+Some table made using an online generator
+\input{tables/table_example}
+
+\subsection{Some lists}
+
+\subsubsection{An unordered list}
+\begin{itemize}
+    \item 1
+    \item 2
+    \begin{itemize}
+        \item 3
+        \item 4
+        \begin{itemize}
+            \item 5
+            \item 6
+            \item 7
+        \end{itemize}
+        \item 8
+    \end{itemize}
+    \item 9
+\end{itemize}
+
+\subsubsection{An ordered list}
+\begin{enumerate}
+    \item Element 1
+    \item Element 2
+    \begin{enumerate}
+        \item Element 3
+        \item Element 4
+        \begin{enumerate}
+            \item Element 5\footnote{Hello there}
+        \end{enumerate}
+    \end{enumerate}
+    \item Element 6
+\end{enumerate}
+
+\subsection{References}
+
+In my section you can find a picture of a dog (see Rysunek \ref{fig:dog})
+
+\noindent As well as a custom table (see Tabela \ref{tab:exampletable})
